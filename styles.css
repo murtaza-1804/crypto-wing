@@ -37,8 +37,14 @@ body{
     font-style: normal;
     line-height: normal;
     text-decoration: none;
+    transition: ease-in 0.3s;
 }
 
+.nav-links a:hover{
+    border-radius: 12px;
+    padding: 10px 16px;
+    background-color: #ffffff1b;
+}
 .primary-button {
     color: #fff;
     display: flex;
@@ -48,11 +54,16 @@ body{
     gap: 10px;
     border-radius: 24px;
     background: #7F5AF0;
-    backdrop-filter: blur(25px);
-    box-shadow: 2px 4px 4px 0px rgba(256, 256, 256, 0.12) inset, 0px 6px 6px 0px rgba(0, 0, 0, 0.1);
-    
+/*    box-shadow: 0 8px 24px 0 rgba(127, 90, 240, 0.25), 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+*/    height: 54px;
+    transition: ease 0.3s, box-shadow 0.3s, border 0.3s, color 0.3s;
+
 }
 
 .primary-button:hover {
-    background: #6A4AE3;
+    border-radius: 24px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 24px 0 rgba(127, 90, 240, 0.25), 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+    height: 54px;
 }
