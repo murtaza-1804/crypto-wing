@@ -223,7 +223,21 @@ h3{
     margin-bottom: 16px;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0px 0% 140px 0px;
+    gap: 16px;
+}
+
 .bubble{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
     padding: 10px 16px;
     border-radius: 100px;
     align-items: center;
