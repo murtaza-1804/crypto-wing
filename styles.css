@@ -12,9 +12,11 @@ h1{
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.48px;
+    margin: auto;
 }
 
 h2{
+    margin: auto;
     color: #fff;
     font-family: "Exo 2";
     font-size: 36px;
@@ -25,6 +27,7 @@ h2{
 }
 
 h3{
+    margin: auto;
     color: #fff;
     font-family: "Exo 2";
     font-size: 24px;
@@ -36,6 +39,7 @@ h3{
 
 
 .b1{
+    margin: auto;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -45,6 +49,7 @@ h3{
 }
 
 .b2{
+    margin: auto;
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -54,12 +59,23 @@ h3{
 }
 
 .b3{
+    margin: auto;
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.bubble-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: auto;
 }
 .navbar {
     position: sticky;
@@ -130,7 +146,7 @@ h3{
 }
 
 .hero-noise {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -230,7 +246,7 @@ h3{
     justify-content: flex-start;
     text-align: left;
     padding: 0px 0% 140px 0px;
-    gap: 16px;
+    gap: 6px;
 }
 
 .bubble{
@@ -242,6 +258,18 @@ h3{
     border-radius: 100px;
     align-items: center;
     gap: 6px;
-    border: 0.5 px solid #7F5AF0;
-    background-color: rgba(255, 255, 255, 0.12);
+    border: 0.5px solid #7F5AF0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0px;
+    gap: 16px;
+    width: 80%;
 }
