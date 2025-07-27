@@ -587,7 +587,7 @@ h3{
 }
 
 .faq-card{
-    width: 100%;
+    width: 95%;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -616,6 +616,10 @@ h3{
 }
 
 .faq-card.active .plus-icon {
+    display: none;
+}
+
+.faq-card.default .minus-icon {
     display: none;
 }
 
